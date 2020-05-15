@@ -1,6 +1,13 @@
 ---
 title: Mutual Nondisclosure Agreement
 description: The standard business nondisclosure agreement
+blanks:
+  proposingParty:
+    variable: ${proposingParty}
+  consentingParty:
+    variable: ${consentingParty}
+  governingLaw:
+    placeholder: the State of California
 ---
 
 ## BETWEEN

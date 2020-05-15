@@ -1,13 +1,20 @@
 ---
 title: PANDA
 description: The NDA for your personal information
+blanks:
+  disclosingParty:
+    variable: ${proposingParty}
+  receivingParty:
+    variable: ${consentingParty}
+  governingLaw:
+    placeholder: the State of California
 ---
 
 ## BETWEEN
 
-- `proposingParty` and
+- `disclosingParty` and
 
-- `consentingParty`,
+- `receivingParty`,
 
 collectively referred to as the **Parties**.
 
